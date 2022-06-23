@@ -1,3 +1,61 @@
+body{
+	
+
+	
+}
+
+#card{
+	margin-top: 25px;
+}
+	
+
+
 .card{
 	margin-top:25px;
+}
+
+.editar-card{
+	height: 595px;
+	width: 90%;
+	background-color: #efefef;
+	padding: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#um{
+	
+	
+}
+
+.efeito-card{
+	transition: transform 1s;
+	
+}
+
+.efeito-img{
+	transition: transform 1s;
+	
+}
+
+.efeito-img:hover{
+	transform: scale(1.2) rotateY(360deg);
+	cursor: pointer;
+	
+}
+
+.card-title{
+	font: 800 19px 'Open Sans', sans-serif;
+    color: #F7941E;
+    margin-bottom: 0;
+    text-transform: uppercase;
+	
+}
+
+.lista{
+	
+	font: 400 13px 'Open Sans', sans-serif;
+    color: #ACAAA5;
+    display: block;
+    margin-bottom: 10px;
 }
