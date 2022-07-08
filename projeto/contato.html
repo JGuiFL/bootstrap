@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contato</title>
 	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
@@ -17,13 +18,85 @@
 			<div class="collapse navbar-collapse">
 				<div class="navbar-nav">	
 					<a class="nav-link active" href="index.html">Início</a>
-					<a class="nav-link" href="servico.html">Serviço</a>
+					<a class="nav-link" href="noticias.html">Noticias</a>
 					<a class="nav-link" href="contato.html">Contato</a>
 					<a class="nav-link" href="sobre.html">Sobre</a>
 				</div>	
 			</div>
 		</div>	
 	</nav>
+	
+	<section>
+
+		<div id="div-form">
+			<form method="get" action="contato.php">
+				<label> Digite seu nome: </label> <br />
+				<input class="input" type="text" name="nome"> <br />
+				<br>
+				<label>CPF:</label> <br />
+				<input class="input" type="text" name="cpf"> <br />
+				<br>
+				<label> Digite seu e-mail: </label> <br />
+				<input class="input" type="email" name="email"> <br />
+				<br>
+				<label>Data de nascimento</label> <br />
+				<input class="input" type="datetime" name="data"> <br />
+				<br>
+				<label>Telefone para contato:</label> <br />
+				<input class="input" type="text" name="telefone"> <br />
+				<br>
+				<label>CEP</label> <br />
+				<input class="input" type="text" name="cep"> <br />
+				<br>
+				<label>Endereço:</label> <br />
+				<input class="input" type="text" name="endereco"> <br />
+				<br>
+				<label>Bairro:</label> <br />
+				<input class="input" type="text" name="bairro"> <br />
+				<br>
+				<label>Informe o motivo do contato</label> <br />
+				<select name="tipo-contato">
+					<option value="Duvida">Duvida</option>
+					<option value="Reclamação">Reclamação</option>
+					<option value="Informação">Informação</option>
+				</select> <br />
+				<label>Mensagem:</label> <br />
+				<input id="mensagem" type="text" name="mensagem"> <br /> 
+				<br>
+				<input  id="enviar" type="submit" value="Enviar"> 
+		
+			</form>
+		</div>	
+	
+	</section>
+	
+	<footer id="rodape">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<img src="img/oralplan.png" alt="Logo" width="90" height="50">
+					<span class="text-muted">&copy; 2022 Programação web.</span>
+				</div>
+				
+				<div class="col-4">
+					<ul class="nav nav-navbar justify-content-center">
+						<li class="nav-item nav-link text-muted">Ínicio</li>
+						<li class="nav-item nav-link text-muted">Serviço</li>
+						<li class="nav-item nav-link text-muted">Contato</li>
+						<li class="nav-item nav-link text-muted">Sobre</li>	
+					</ul>
+				</div>	
+				
+				<div class="col-4 text-end">
+					<img src="img/twitter.png" alt="logo twitter"> 
+					<img src="img/instagram.png" alt="logo instagram">
+					<img src="img/facebook.png" alt="logo facebook">
+				</div>
+
+			</div>
+		</div>
+	</footer>	
+	
 
 <script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"></script>	
 </body>

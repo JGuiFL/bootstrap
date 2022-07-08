@@ -59,3 +59,73 @@ body{
     display: block;
     margin-bottom: 10px;
 }
+.link{
+	text-decoration:none;
+	
+}
+
+article{
+    width: 350px;
+    padding: 50px;
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+    position: relative;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+	
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+#why{
+	width: 100%;
+    position: center;
+    top: 0;
+    margin-top: 170px;
+    overflow: hidden;
+	
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#div-form{
+	height: 680px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 1490px;
+	border: solid transparent 3px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #d3d3d3;	
+}
+
+.input{
+	width:250px;
+}
+
+#mensagem{
+	height:100px;
+	width: 250px;
+}
+
+#enviar{
+	background-color:#48d1cc;
+	height: 40px;
+	width: 190px;	
+}
